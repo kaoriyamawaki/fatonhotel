@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交通アクセス｜ファトンホテル京都</title>
+</head>
+
+<body>
+ <header class="fixed-header">
+  <div class="logo">Faton hotel Kyoto</div>
+  <nav class="menu">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <ul>
+      <li><a href="about-hotel.html">当ホテルについて</a></li>
+      <li><a href="room.html">ご宿泊</a></li>
+      <li><a href="restaurant.html">レストラン</a></li>
+      <li><a href="sisetsu-annai.html">施設案内</a></li>
+      <li><a href="access.html">アクセス</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="content">
+<div class="hero">
+    <div>
+        <h1>交通アクセス</h1>
+    </div>
+     </div>
+
+<section>
+    <div class="access-box">
+        <p class="access-info">
+            <h3>ファトンホテル京都</h3>（2025年12月現在  開業準備中）<br>
+            〒600-8027 京都府京都市下京区難波町406<br>
+            TEL：075-751-7711
+        </p>
+<div class="map-container">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.3253796933486!2d135.7674705746521!3d34.99855920238277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108bec116897d%3A0xba375f67706f6a32!2z44CSNjAwLTgwMjcg5Lqs6YO95bqc5Lqs6YO95biC5LiL5Lqs5Yy65rKz5Y6f55S66YCa5p2-5Y6f5LiL44KL6Zuj5rOi55S677yU77yQ77yW!5e0!3m2!1sja!2sjp!4v1764730625392!5m2!1sja!2sjp" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+ </div>
+</div>
+</section>
+
+
+<section>
+    <h3>電車でのアクセス</h3>
+<p>
+            ・ 阪急電鉄「京都河原町駅」より 徒歩 5分<br>
+            ・ 京阪電鉄「祇園四条駅」より 徒歩 7分<br>
+            ・ JR「京都駅」より タクシー約 10分
+        </p>
+</section>
+
+<section>
+    <h3>空港からのアクセス</h3>
+
+    <div class="access-box">
+        <p class="access-info">
+            ・ 関西国際空港（KIX）より<br>
+高速バス → 京都駅（約90分） → タクシー約10分<br><br>
+
+            ・ 大阪国際空港（伊丹空港）より<br>
+リムジンバス → 京都駅（約55分） → タクシー約10分
+        </p>
+    </div>
+</section>
+
+<section>
+    <h3>お車でお越しのお客様へ</h3>
+
+    <div class="access-box">
+        <p class="access-info">
+            ・ 名神高速道路「京都南IC」より 約20分<br>
+            ・ 駐車場：開業に向け準備中<br>
+            （近隣コインパーキングのご利用を予定しています）
+        </p>
+    </div>
+</section>
+
+<section>
+    <h3>周辺情報</h3>
+
+    <div class="access-box">
+        <p>
+            ・ 鴨川まで 徒歩3分<br>
+            ・ 先斗町・祇園エリアまで 徒歩圏内<br>
+            ・ 四条河原町のショッピングエリアすぐ<br>
+            ・ 観光・グルメ・ショッピングすべてが徒歩で完結する好立地
+        </p>
+    </div>
+    </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="#">サステナビリティ</a>
+    <a href="#">お問い合わせ</a>
+    <a href="privacy-policy.html">プライバシーポリシー</a>
+    <a href="#">採用情報</a>
+  </div>
+  ©Faton Hotel
+</footer>
+</body>
+</html>
