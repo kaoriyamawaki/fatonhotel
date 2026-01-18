@@ -1,0 +1,406 @@
+@charset "utf-8";
+
+body {
+  font-family: serif;
+  font-size: 14px;
+  color: #333333;
+  background-color: #ffffff;
+  padding-top: 60px; /* 固定ヘッダー分 */
+  margin: 0;         /* 余白防止 */
+}
+
+
+body {
+  font-family: serif;
+  font-size: 14px;
+  background-color: #ffffff;   /* ←ここを白に変更 */
+  padding-top: 60px;
+}
+h1{
+  font-size: 22px;
+  text-align: center;
+}
+footer {
+        text-align: center;
+        background-color: #333333;
+        color: #c58d98;
+        justify-content: space-around;
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0;
+        }
+/* 固定ヘッダー */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* 横方向中央揃え */
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  padding: 0 10px;
+  font-family: serif;
+  font-size: 16pt;
+  box-sizing: border-box;
+}
+
+/* 共通固定ヘッダー */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333333;
+  color: #C58D98;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+  z-index: 1000;
+  box-sizing: border-box;
+  font-family: "Felix Titling",serif;
+  font-size: 16px;
+}
+
+/* メニューリスト */
+.fixed-header .menu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* メニューリンク */
+.fixed-header .menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fixed-header .menu a:hover {
+  text-decoration: underline;
+}
+
+/* ハンバーガーアイコン */
+.hamburger {
+  display: none;           /* PCでは非表示 */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* ------------------ */
+/* スマホ対応 */
+@media (max-width: 600px) {
+  .fixed-header .menu ul {
+    flex-direction: column;     /* 縦並び */
+    position: absolute;
+    top: 60px;                  /* ヘッダー下に表示 */
+    right: 0;
+    background-color: #333;
+    width: 200px;
+    display: none;              /* 初期は非表示 */
+    gap: 0;
+  }
+
+  /* チェックボックスONで表示 */
+  #menu-toggle:checked + .hamburger + ul {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;             /* スマホで表示 */
+  }
+  
+  .fixed-header .menu ul li {
+    padding: 10px;
+  }
+}
+
+/* ヘッダー固定によるコンテンツ隠れ防止 */
+body {
+  padding-top: 60px;
+}
+#menu-toggle {
+  display: none;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;            /* 横幅100% */
+  padding-bottom: 56.25%; /* 高さを幅に対して16:9比率に */
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+img{
+  max-width:100%;
+}
+
+
+/*↓スライドショー↓*/
+.img-frame{
+   position: relative;
+   width: 70%;
+   height: 300px;
+   overflow: hidden;
+   margin: 0 auto;
+}
+@media screen and (max-width: 767px){
+.img-frame{
+   width: 100%;
+   height: 200px;
+}
+.img-01, .img-02, .img-03{
+   position: absolute;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.img-01{
+   background-image: url('../../images/high-tea-4644623_1280.jpg');
+   animation: slide-animation-01 20s infinite;
+}
+.img-02{
+   background-image: url('../../images/restaurant-449952_1280.jpg');
+   animation: slide-animation-02 20s infinite;
+}
+.img-03{
+   background-image: url('../../images/hotel-1979406_1280.jpg');
+   animation: slide-animation-03 20s infinite;
+}
+@keyframes slide-animation-01 {
+    0% {opacity: 1; transform: scale(1.0);}
+  30% {opacity: 1;}
+  40% {opacity: 0; transform: scale(1.15);}
+  90% {opacity: 0}
+100% {opacity: 1; transform: scale(1.0);}
+}
+@keyframes slide-animation-02 {
+    0% {opacity: 0;}
+  30% {opacity: 0; transform: scale(1.1);}
+  40% {opacity: 1;}
+  60% {opacity: 1;}
+  70% {opacity: 0; transform: scale(1.0);}
+100% {opacity: 0;}
+}
+@keyframes slide-animation-03 {
+    0% {opacity: 0;}
+  60% {opacity: 0;  transform: scale(1.0);}
+  70% {opacity: 1;}
+  90% {opacity: 1;}
+100% {opacity: 0; transform: scale(1.1);}
+}
+/* ↑スライドショー↑ */
+
+/* ハンバーガーメニューの色 */
+.fixed-header .menu a {
+  color: #c58d98;
+}
+
+.content {
+  background-color: #ffffff;  /* 白背景 */
+  padding: 0 1em;              /* 内側の余白 */
+  width: 100%;                /* 横幅いっぱい */
+  box-sizing: border-box;     /* padding分も幅に含める */
+}
+.content p {
+  margin: 0 0 20px 0; /* 下に20px空ける */
+  line-height: 1.6;   /* 行間も少し広げる */
+}
+.facility-card{
+  margin-bottom: 30px;
+}
+.link-row {
+  display: flex;               /* 横並びにする */
+  justify-content: center;     /* 中央寄せ */
+  gap: 20px;                   /* リンク間の余白 */
+  margin-bottom: 20px;         /* 行間の余白 */
+}
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+  color: #c58d98;
+}
+.room-info a {
+    margin-top: 20px;
+    display: inline-block;
+}
+a[style*="background: #c58d98"] { 
+  margin-top: 20px; display: inline-block; 
+}
+.photogarelly {
+    list-style: none;     /* 黒丸を消す */
+    padding: 0;
+    text-align: center;   /* 中央揃え */
+}
+
+.room-info {
+    margin-bottom: 30px;
+}
+.facility-info {
+    margin-bottom: 30px;
+}
+/* 文章部分に左右余白を追加（全ページ対応） */
+.room-desc,
+.room-info,
+.facility-desc,
+.facility-info,
+.content {
+    max-width: 800px;    /* 最大幅を指定して読みやすく */
+    margin: 0 auto;      /* 左右中央寄せ */
+    padding: 0 1em;     /* 左右余白 */
+    box-sizing: border-box;
+}
+
+/* 画像は横幅いっぱい */
+.room-card img,
+.facility-img,
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ボタン下に余白を確保 */
+.room-info a,
+.facility-info a {
+    margin-bottom: 20px;  /* 下に余白を追加 */
+    display: inline-block; /* 確実にブロック扱いに */
+}
+h3 {
+    max-width: 800px;    /* 最大幅を指定して読みやすく */
+    margin: 0 auto;      /* 左右中央寄せ */
+    padding: 0 1em;     /* 左右余白 */
+    box-sizing: border-box;
+}
+.room-card img {
+    display: block;      /* インラインの隙間を消す */
+    width: 100%;         /* 横幅いっぱい */
+    margin-bottom: 20px; /* 画像下の余白 */
+}
+/* レストランページのメイン画像だけ余白をつける */
+img[alt="restaurant"] {
+    display: block;      /* 下の隙間を消す */
+    width: 100%;         /* 横幅いっぱい */
+    margin-bottom: 20px; /* 下に余白 */
+}
+/* 施設案内ページの画像を画面横幅いっぱいに */
+.facility-card img {
+    display: block;
+    width: 100vw;                  /* ビューポート幅いっぱいに */
+    max-width: 100vw;              /* 念のため上限も設定 */
+    margin-left: calc(-50vw + 50%);/* 中央寄せしつつ左右いっぱいに */
+    height: auto;
+    margin-bottom: 20px;           /* 下に余白 */
+}
+.body {
+padding: 0 1em;
+}
+.abouthotel{
+  padding: 0 1em;
+}
+.wedding{
+   padding: 0 1em;
+}
+.button{
+  margin-bottom: 20px;
+}
+.facility{
+  padding: 0 1em;
+}
+.block{
+  padding: 0 1em;
+}
+.room-desc {
+  margin-bottom: 20px;
+}
+.block img {
+  margin-top: 20px;
+}
+.facility-desc{
+  margin-top: 10px;
+}
+.full-width {
+  width: 100vw;                  /* 画面幅いっぱい */
+  max-width: 100vw;
+  height: auto;
+  display: block;
+  margin-left: calc(-50vw + 50%); /* 中央基準で左右いっぱいに */
+}
+.wedding-title {
+  margin-bottom: 10px;
+}
+.ryouritu-title {
+  margin-top: 10px;
+}
+body.privacy-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+/* プライバシーポリシー専用ページの見出し調整 */
+body.privacy-page h1,
+body.privacy-page h2,
+body.privacy-page h3,
+body.privacy-page h4,
+body.privacy-page h5,
+body.privacy-page h6 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+/* 当ホテルについてページ専用：見出し余白調整 */
+.about-page h3 {
+  margin-bottom: 5px;   /* お好みで調整 */
+}
+
+.about-page h4 {
+  margin-bottom: 3px;   /* h4はさらに詰める */
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* 2つずつ横並び */
+  justify-content: center;
+  column-gap: 40px;  /* 横の余白だけ */
+  row-gap: 0px;      /* 縦は広げない */
+  margin-bottom: 10px;
+}
+/* 施設案内ページだけ左右幅を調整 */
+.facility-page .content {
+  max-width: none;   /* 800px制限を解除 */
+  margin: 0;         /* 中央寄せ解除 */
+  padding: 0 0.1em;    /* 客室案内と同じ余白 */
+}
+/* プライバシーポリシーページのh1だけを調整 */
+body.privacy-page .hero h1 {
+    margin-top: 60px; /* PC版：固定ヘッダー分 */
+}
+
+/* スマホ版（画面幅600px以下） */
+@media (max-width: 600px) {
+    body.privacy-page .hero h1 {
+        margin-top: 80px; /* ヘッダーに隠れないよう余白を広めに */
+    }
+}
