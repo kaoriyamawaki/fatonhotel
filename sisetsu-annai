@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>施設案内｜ファトンホテル京都</title>
+</head>
+
+<body class="facility-page">
+
+ <header class="fixed-header">
+  <div class="logo">Faton hotel Kyoto</div>
+  <nav class="menu">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <ul>
+      <li><a href="about-hotel.html">当ホテルについて</a></li>
+      <li><a href="room.html">ご宿泊</a></li>
+      <li><a href="restaurant.html">レストラン</a></li>
+      <li><a href="sisetsu-annai.html">施設案内</a></li>
+      <li><a href="access.html">アクセス</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="content">
+<div class="hero">
+    <div>
+        <h1>施設案内</h1>
+    </div>
+</div>
+
+<section>
+    <!-- ティーサロン -->
+    <div class="facility-card">
+        <div class="facility-title"><h3>ティーサロン</h3></div>
+
+        <img src="../images/dinner-table-8396726_1280.jpg" alt="teasalon">
+
+        <div class="facility-desc">
+            ファトンの象徴でもある紅茶とスイーツを楽しめるティーサロン。
+            オリジナルの茶葉やジャムを使用したアフタヌーンティーセットは、
+            ホテルの世界観を最も感じられるメニューの一つです。
+        </div>
+
+        <div class="facility-info">
+            ・アフタヌーンティー／軽食を提供<br>
+            ・宿泊以外のお客様も予約にて利用可能
+            <div style="text-align: center;"><a href="ここにリンクURLを入れます" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">予約する</a></div>
+        </div>
+    </div>
+
+    <!-- バー -->
+    <div class="facility-card">
+        <div class="facility-title"><h3>バー</h3></div>
+        <img src="../images/glasses-4720011_1280.jpg" alt="bar">
+        <div class="facility-desc">
+            ファトンのスパイスやコンフィチュールを使用した
+            オリジナルカクテルを楽しめる特別なバー。
+            大人のための静かな空間で、夜の京都をゆっくりと味わえます。
+        </div>
+
+        <div class="facility-info">
+            ・オリジナルカクテルを提供<br>
+            ・宿泊以外のお客様も予約にて入店可能
+            <div style="text-align: center;"><a href="ここにリンクURLを入れます" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">予約する</a></div>
+        </div>
+    </div>
+
+    <!-- ペストリー -->
+    <div class="facility-card">
+        <div class="facility-title"><h3>ペストリー（予約不要）</h3></div>
+        <img src="../images/dessert-6679192_1920.jpg" alt="pestry">
+        <div class="facility-desc">
+            伝統の洋菓子や焼き菓子、パンを気軽に楽しめるテイクアウトショップ。
+            高島屋でも人気の商品に加え、京都限定のスイーツも展開予定です。
+        </div>
+
+        <div class="facility-info">
+            ・予約不要で利用可能（一般利用OK）<br>
+            ・テイクアウト専門
+        </div>
+    </div>
+
+    <!-- ブティック -->
+    <div class="facility-card">
+        <div class="facility-title"><h3>ブティック（予約不要）</h3></div>
+        <img src="../images/hotel-951596_1920.jpg" alt="buttikku">
+        <div class="facility-desc">
+            ファトンの紅茶、ジャム、スパイスなどを取り揃えたショップ。  
+            ギフトとしても喜ばれる上質なアイテムを販売しています。
+        </div>
+
+        <div class="facility-info">
+            ・予約不要で利用可能（一般利用OK）
+        </div>
+    </div>
+
+    <!-- スパ -->
+    <div class="facility-card">
+        <div class="facility-title"><h3>スパ</h3></div>
+        <img src="../images/spa.jpg" alt="spa">
+        <div class="facility-desc">
+            心と身体を癒やす上質なスパトリートメントをご用意しております。  
+            京都の旅をより特別なものにするリラクゼーション体験を提供します。
+        </div>
+
+        <div class="facility-info">
+            ・宿泊以外のお客様も予約にて利用可能
+            <div style="text-align: center;"><a href="ここにリンクURLを入れます" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">予約する</a></div>
+        </div>
+    </div>
+
+    <!-- ジム -->
+    <div class="facility-card">
+        <div class="facility-title"><h3>スポーツジム</h3></div>
+        <img src="../images/gym.jpg" alt="gym">
+        <div class="facility-desc">
+            【宿泊者専用】ご宿泊のお客様が自由に利用できるフィットネスジム。  
+            旅の合間のリフレッシュにご利用いただけます。
+        </div>
+    </div>
+
+    <!-- レセプション -->
+    <div class="facility-card">
+        <div class="facility-title"><h3>レセプション</h3></div>
+        <img src="../images/front.jpg" alt="reception">
+        <div class="facility-desc">
+            ファトンホテル京都の滞在をサポートする24時間対応のメインカウンター。
+            コンシェルジュが、観光案内やご要望に丁寧にお応えいたします。
+        </div>
+    </div>
+</section>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="###">サステナビリティ</a>
+    <a href="###">お問い合わせ</a>
+    <a href="privacy-policy.html">プライバシーポリシー</a>
+    <a href="###">採用情報</a>
+  </div>
+  ©Faton Hotel
+</footer>
+</body>
+</html>
