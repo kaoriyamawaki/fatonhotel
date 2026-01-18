@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>当ホテルについて｜ファトンホテル京都</title>
+</head>
+
+<body class="about-page">
+    <header class="fixed-header">
+  <div class="logo">Faton Hotel Kyoto</div>
+  <nav class="menu">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <ul>
+      <li><a href="about-hotel.html">当ホテルについて</a></li>
+      <li><a href="room.html">ご宿泊</a></li>
+      <li><a href="restaurant.html">レストラン</a></li>
+      <li><a href="sisetsu-annai.html">施設案内</a></li>
+      <li><a href="access.html">アクセス</a></li>
+    </ul>
+  </nav>
+</header>
+   <h1>当ホテルについて</h1>
+  <img src="../images/high-tea-4644623_1280.jpg" />
+  <h3 class="ryouritu-title">美味しさと美しさの両立</h3>
+
+
+
+<div class="abouthotel">
+<p>
+ファトンホテル京都は、1886年にフランス・パリで誕生した老舗高級食料品ブランド
+「ファトン」による、世界で二軒目のホテルとして2025年、京都に誕生します。<br>
+ファトンは創業以来、“美味しさと美しさの両立” をコンセプトに、
+紅茶・ジャム・スパイス・洋菓子・パンなど、多彩な食のプロダクトを
+世界各国へ届けてきました。<br>
+気品と遊び心を併せ持つその世界観は、日本でも高島屋を中心に長く愛され、
+世代を超えて多くのお客様に親しまれています。
+</p>
+
+<p>
+そして今、ファトンは“食”という枠を越え、
+ブランドが大切にしてきた感性と美意識を体験として味わえる場所として
+ホテル事業をスタートしました。<br>
+パリの1号店に続き、2号店となる京都のホテルは、
+ブランドの象徴であるピンクを基調とした、優美で気品あるインテリアが特徴です。<br>
+10階建ての館内には、約60室のラグジュアリーな客室をはじめ、
+レストラン、ティーサロン、バー、ペストリー、ブティック、スパ、ジムなど、<br>
+ブランドの食文化と美意識を堪能できる多彩な施設をご用意しています。
+</p>
+
+<p>
+京都の中心部に誕生する「ファトンホテル京都」は、創業140年を超えるファトンの伝統と、<br>
+現代的なエレガンスを融合させた新しいスタイルのラグジュアリーホテルです。<br>
+ここでしか味わえない食の体験、心ほどける滞在、そして美への感性が息づく空間を通して、
+皆さまに特別な時間をお届けいたします。</p>
+
+<p>
+公式WebサイトおよびSNSでは、開業準備の様子や最新情報を随時発信してまいります。
+</p>
+</div>
+
+<section>
+    <h3>客室</h3>
+    <div class="block">
+        <p>
+        10階建ての館内に、約60室の多彩な客室をご用意。<br>
+        洗練されたラグジュアリー空間を演出します。<br>
+        特別感のある滞在を求める方へ上質な時間をご提供いたします。
+        <img src="../images/hotel-951594_1280.jpg" alt="room" class="full-width">
+        </p>
+    </div>
+</section>
+
+<section>
+    <h3>施設紹介</h3>
+    <p class="facility-desc">飲食施設ではファトンの食料品を使用した特別なメニューをご提供しております。
+    <div class="facility-list">
+        <div class="facility"><h4>レストラン</h4></div>
+          <img src="../images/hotel-951599_1920.jpg" alt="teasalon">
+        <div class="facility"><h4>ティーサロン</h4></div>
+          <img src="../images/dinner-table-8396726_1280.jpg" alt="teasalon">
+        <div class="facility"><h4>バー</h4></div>
+           <img src="../images/glasses-4720011_1280.jpg" alt="bar">
+        <div class="facility"><h4>ペストリー</h4></div>
+           <img src="../images/dessert-6679192_1920.jpg" alt="pestry">
+        <div class="facility"><h4>ブティック</h4></div>
+           <img src="../images/hotel-951596_1920.jpg" alt="buttikku">
+        <div class="facility"><h4>スパ</h4></div>
+           <img src="../images/spa.jpg" alt="spa">
+        <div class="facility"><h4>スポーツジム</h4></div>
+           <img src="../images/gym.jpg" alt="gym">
+        <div class="facility"><h4>レセプション</h4></div>
+           <img src="../images/front.jpg" alt="reception">
+           <div class="button"><div style="text-align: center;"><a href="sisetsu-annai.html" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">施設案内詳細</a></div>
+   </div>
+          </div>
+          </div>
+    </div>
+</section>
+
+<section>
+    <h3 class="wedding-title">ウェディング・パーティー</h3>
+    <img src="../images/wedding.jpg" alt="wedding">
+    <div class="wedding">
+        <p>
+        ファトンホテル京都は、結婚式や披露宴、
+        各種パーティー会場としてもご利用いただけます。
+        </p>
+        <p>
+        ブランドの世界観を取り入れた空間で、
+        大切な一日を美しく彩るお手伝いをいたします。
+        <div style="text-align: center;"><a href="#" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">詳細を見る</a></div>
+        </div>
+        </div>
+</section>
+
+      </p>
+   <footer>
+  <div class="footer-links">
+    <a href="#">サステナビリティ</a>
+    <a href="#">お問い合わせ</a>
+    <a href="privacy-policy.html">プライバシーポリシー</a>
+    <a href="#">採用情報</a>
+  </div>
+  ©Faton Hotel
+</footer>
+</body>
+</html>
