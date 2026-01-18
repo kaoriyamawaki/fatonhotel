@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客室案内｜ファトンホテル京都</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+ <header class="fixed-header">
+  <div class="logo">Faton hotel Kyoto</div>
+  <nav class="menu">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <ul>
+      <li><a href="about-hotel.html">当ホテルについて</a></li>
+      <li><a href="room.html">ご宿泊</a></li>
+      <li><a href="restaurant.html">レストラン</a></li>
+      <li><a href="sisetsu-annai.html">施設案内</a></li>
+      <li><a href="access.html">アクセス</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="hero">
+    <div>
+        <h1>客室のご案内</h1>
+    </div>
+</div>
+
+<section>
+
+    <!-- スーペリアルーム -->
+    <div class="room-card">
+        <div class="room-title"><h3>スーペリアルーム</h3></div>
+        <img src="../images/hotel-951594_1280.jpg" alt="room1">
+        <div class="room-desc">
+            シンプルでありながら、ピンクのアクセントが心地よい
+            エレガントな空間に仕上げたスタンダードタイプの客室です。
+            一人旅やビジネス利用、短い滞在にもおすすめです。
+        </div>
+
+        <div class="room-info">
+            ・広さ：25㎡〜30㎡<br>
+            ・定員：1〜2名<br>
+            ・設備：バス、シャワー、Wi-Fi、ミニバー、セーフティボックス<br>
+            ・料金：1名 50,000円〜（目安）
+            <div style="text-align: center;"><a href="ここにリンクURLを入れます" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">予約する</a></div>
+        </div>
+    </div>
+
+    <!-- デラックスルーム -->
+    <div class="room-card">
+        <div class="room-title"><h3>デラックスルーム</h3></div>
+        <img src="../images/bed-4416515_1280.jpg" alt="room2">
+        <div class="room-desc">
+            ピンクを基調とした柔らかなインテリアに、
+            ブランドの世界観を散りばめた上質な空間。
+            贅沢な京都滞在を楽しみたいカップルやご夫婦に最適です。
+        </div>
+
+        <div class="room-info">
+            ・広さ：35㎡〜40㎡<br>
+            ・定員：2名<br>
+            ・設備：独立バス、シモンズベッド、Wi-Fi、ミニバー<br>
+            ・料金：1名 70,000円〜（目安）
+            <div style="text-align: center;"><a href="ここにリンクURLを入れます" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">予約する</a></div>
+        </div>
+    </div>
+
+    <!-- スイートルーム -->
+    <div class="room-card">
+        <div class="room-title"><h3>スイートルーム</h3></div>
+        <img src="../images/hotel-1979406_1280.jpg" alt="room3">
+        <div class="room-desc">
+            リビングとベッドルームを備え、ゆとりある空間で
+            優雅なホテルステイを満喫できる最上級の客室です。
+            記念日、特別な旅行、贅沢な京都滞在にふさわしい一室です。
+        </div>
+
+        <div class="room-info">
+            ・広さ：55㎡〜70㎡<br>
+            ・定員：2〜3名<br>
+            ・設備：独立リビング、バスタブ、アメニティ、ミニバー<br>
+            ・料金：1名 100,000円前後（目安）
+            <div style="text-align: center;"><a href="ここにリンクURLを入れます" style="background: #c58d98; color: #ffffff; border-radius: 0.25em; padding: 1em 2em 0.8em; line-height:1; display: inline-block; font-family: serif;">予約する</a></div>
+        </div>
+    </div>
+
+</section>
+<footer>
+  <div class="footer-links">
+    <a href="###">サステナビリティ</a>
+    <a href="###">お問い合わせ</a>
+    <a href="privacy-policy.html">プライバシーポリシー</a>
+    <a href="###">採用情報</a>
+  </div>
+  ©Faton Hotel
+</footer>
+</body>
+</html>
